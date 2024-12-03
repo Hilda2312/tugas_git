@@ -67,6 +67,7 @@ print("Jumlah hasil panen dari kedelai per lokasi:", kedelai_total, "\n")
 print("master")
 print("Baru")
 
+
 # 5. Percabangan untuk perhatian khusus
 for lokasi, data in data_panen.items():
     padi = data['hasil_panen']['padi']
