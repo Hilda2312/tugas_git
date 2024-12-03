@@ -64,6 +64,7 @@ kedelai_total = {lokasi: data['hasil_panen']['kedelai'] for lokasi, data in data
 print("Jumlah hasil panen dari padi per lokasi:", padi_total)
 print("Jumlah hasil panen dari kedelai per lokasi:", kedelai_total, "\n")
 
+print("master")
 print("Baru")
 
 # 5. Percabangan untuk perhatian khusus
@@ -73,5 +74,6 @@ for lokasi, data in data_panen.items():
     if padi > 1300 or jagung > 800:
         status = "memerlukan perhatian khusus"
     else:
+        
         status = "dalam kondisi baik"
     print(f"Lokasi {data['nama_lokasi']} {status}.")
